@@ -3,6 +3,8 @@ import java.util.*;
 public class Main_LinkedList {
 
     public static void main(String[] args) {
+
+        ArrayList<Integer> arrayList = new ArrayList<>();
         LinkedList<Integer> ll = new LinkedList<>();
 
         ll.add(1);

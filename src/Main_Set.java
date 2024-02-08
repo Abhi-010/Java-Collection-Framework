@@ -42,9 +42,16 @@ public class Main_Set {
         treeSet1.add(new Student("Mahi",39,"mahi@gmail.com","USA"));
         treeSet1.add(new Student("Chad",31,"chad@gmail.com","Bangalore"));
 
+
+
         for(Student s : treeSet1){
             System.out.println(s.toString());
         }
 
+        Iterator<Student> i = treeSet1.iterator();
+        System.out.println("Iterate through iterator...");
+        while(i.hasNext()){
+            System.out.println(i.next());
+        }
     }
 }
